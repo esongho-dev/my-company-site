@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/main.js"></script>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head> <!-- 공통 --> <title>(주)바른플러스 - 채용문의</title> </head>
+<body>
+    <header></header>
+    <main>
+        <h2>채용 문의하기 (로그인 불필요)</h2>
+        <p>희망 직무와 이력서를 남겨주세요. 빠르게 연락드리겠습니다.</p>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST"> <!-- Formspree 가입 후 ID 받기 -->
+            <input type="text" name="name" placeholder="이름" required>
+            <input type="email" name="email" placeholder="이메일" required>
+            <input type="tel" name="phone" placeholder="전화번호">
+            <textarea name="message" placeholder="희망 직무 / 자기소개 / 첨부파일 설명" rows="5" required></textarea>
+            <button type="submit">문의 전송</button>
+        </form>
+    </main>
+    <footer><!-- 공통 --></footer>
+</body>
+</html>
