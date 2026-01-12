@@ -12,11 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const navHTML = `
         <nav>
             <ul>
-                <li><a href="index.html">홈화면</a></li>
                 <li><a href="company.html">회사소개</a></li>
                 <li><a href="business.html">사업분야</a></li>
-                <li><a href="recruit-inquiry.html">채용문의</a></li>
-                <li><a href="recruit-info.html">채용정보</a></li>
+                <li><a href="srrvice.html">서비스</a></li>
+                <li><a href="recruit-inquiry.html">서비스문의</a></li>
+                <li><a href="recruit-info.html">구직문의</a></li>
             </ul>
         </nav>
     `;
