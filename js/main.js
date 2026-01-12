@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </ul>
         </nav>
     `;
-    document.querySelector('header').innerHTML = `<h1>(주)바른플러스</h1>${navHTML}`;
+    document.querySelector('header').innerHTML = `<li><a href="index.html"><h1>(주)바른플러스</h1></a></li>${navHTML}`;
 
     // 폼 제출 (Formspree용)
     const forms = document.querySelectorAll('form');
